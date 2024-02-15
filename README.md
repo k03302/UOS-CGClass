@@ -3,13 +3,13 @@
 - The client program were written with WebGL / Three.js  
 
 # Project 1 - Luxo
-![](docs/proj1-demo.mp4)
+![](./docs/proj1-demo.mp4)
 
 # Project 2 - Earth
-![](docs/proj2-demo.mp4)
+![](./docs/proj2-demo.mp4)
 
 # Project 3 - Patch
-![](docs/proj3-demo.mp4)
+![](./docs/proj3-demo.mp4)
 
 # Organization
 - public : Contains client resources
