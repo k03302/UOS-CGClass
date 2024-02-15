@@ -2,11 +2,18 @@
 - This is assignment project from UOS Computer Graphics Class
 - The client program were written with WebGL / Three.js  
 
+# Project 1 - Luxo
+![](docs/proj1-demo.mp4)
+
+# Project 2 - Earth
+![](docs/proj2-demo.mp4)
+
+# Project 3 - Patch
+![](docs/proj3-demo.mp4)
+
 # Organization
-- public : client resources
-    - public/lib
-    - public/resources
-- docs : project requirements
+- public : Contains client resources
+- docs : Contains project requirements, demo videos
 
 # How to run
 1. Install node.js
