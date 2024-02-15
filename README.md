@@ -1,3 +1,7 @@
+# Introduction
+- This is assignment project from UOS Computer Graphics Class
+- The client program were written with WebGL / Three.js  
+
 # Organization
 - public : client resources
     - public/lib
