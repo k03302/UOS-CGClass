@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Project #2 (fall, 2023)</title>
+    <style>
+        td.val {
+            width: 60px;
+        }
+
+        input.slider {
+            width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 align=center>Project #2 (fall, 2023)</h1>
+    <h2 align=center><tt>proj2-skeleton</tt></h2>
+
+    <table align=center>
+        <tr>
+            <td>
+                <canvas id="webgl" width="800" height="400">
+                    Please use a browser that supports "canvas"
+                </canvas>
+            </td>
+        </tr>
+        <tr>
+            <td align=center>
+
+                <table>
+                    <tr>
+                        <td>Point Light:</td>
+                        <td>
+                            <input id="light-point" type="checkbox" value="on" checked />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Spot Light:</td>
+                        <td>
+                            <input id="light-spot" type="checkbox" value="on" checked />
+                            Cut-off angle
+                            <input id="cutoff-angle" type="range" min="0" max="45" value="10" />
+                            (<span id="cutoff-angle-val"></span>)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Longitude:</td>
+                        <td>
+                            <input class="slider" id="longitude" type="range" min="0" max="360" value="60" />
+                            (<span id="longitude-val"></span>)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Latitude: </td>
+                        <td>
+                            <input class="slider" id="latitude" type="range" min="-90" max="90" value="30" />
+                            (<span id="latitude-val"></span>)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Rotation angle: </td>
+                        <td>
+                            <input class="slider" id="angle" type="range" min="0" max="360" value="30">
+                            (<span id="angle-val"></span>)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Height: </td>
+                        <td>
+                            <input class="slider" id="height" type="range" min="0" max="100" value="15">
+                            (<span id="height-val"></span>)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan=3>
+                            <span id=message>
+                                message
+                            </span>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <script src="resources/proj2-earth.js" type="module"></script>
+</body>
+
+</html>
